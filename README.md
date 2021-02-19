@@ -23,7 +23,7 @@ implementation of Shor Code [[3]](https://cds.cern.ch/record/465953/files/052163
 first qubit state |+〉 as |+++〉 and the second qubit state |0〉 as |000〉. Now since the encoded states are only |+++〉
 and |000〉, application of CNOTs during encoding for the sign-flip and bit-flip code is not required. The quantum circuit for the error-correcting code is shown in ```Fig. 2```. The first input state qubit is encoded using sign-flip code whereas the second state qubit is encoded using bit-flip code. Error gates are applied to each of the registers and are recovered using Clifford + T gate set [[4]](https://arxiv.org/pdf/1810.10259.pdf). <br/><br/>
 ![BellStateCircuitWithError](images/img2.png)
-&emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; ```Fig. 2```
+&emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; ```Fig. 2```
 
 ```[1]```: [https://en.wikipedia.org/wiki/Quantum_error_correction](https://en.wikipedia.org/wiki/Quantum_error_correction) <br/>
 ```[2]```: [https://en.wikipedia.org/wiki/Bell_state](https://en.wikipedia.org/wiki/Bell_state) <br/>
