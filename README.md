@@ -1,4 +1,10 @@
 # Qosf Screening Task 2
+1) Build the following simple circuit to prepare the Bell state: 
+2) Now add, right before the CNOT gate and for each of the two qubits, an arbitrary “error gate”. By error gate we mean that with a certain probability (that you can decide but      must be non-zero for all the choices) you have a 1 qubit unitary which can be either the identity, or the X gate (bit-flip error) or the Z gate (sign-flip error).
+3) Encode each of the two qubits with a sign-flip or a bit-flip code, in such a way that all the possible choices for the error gates described in 2), occurring on the logical        qubits, can be detected and fixed.
+4) Test your solution by making many measurements over the final state and testing that the results are in line with the expectations.
+
+   
 The Bell state (|00〉 + |11〉)/sqrt(2), which is a maximally entangled state, is created by initialising
 the two qubit input state |00〉 and applying a Hadamard gate to the first qubit and a CNOT gate with 
 first qubit as control input and second qubit as target input. In this task, an error gate is added to
