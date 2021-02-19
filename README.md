@@ -15,16 +15,33 @@ The first qubit state |0〉 is encoded using only sign-flip code because after a
 would flip |+〉 to |-〉 but a bit-flip error would leave the state |+〉 unchanged. Similarly, the second qubit state |0〉 
 is encoded using only bit-flip code because a sign-flip error would leave the state |0〉 unchanged. This eliminates the 
 implementation of Shor Code to both of the input qubit states. Hence, the problem is simplified to encoding the 
-first qubit state |+> as |+++> and the second qubit state |0〉 as |000〉. Now since the encoded states are only |+++〉 
+first qubit state |+〉 as |+++〉 and the second qubit state |0〉 as |000〉. Now since the encoded states are only |+++〉
 and |000〉, this eliminates the application of CNOTs during encoding for the sign-flip and bit-flip code.
 
 ## Task 2 Code Sample
 The code sample is illustrated in python as well as in Q#.
+### Python Code Sample 
+#### .python
+
+Task_2.py: 
+UnitTests.py:
+
+#### Installation 
 
 Install Qiskit by a python package manager tool - pip: 
 pip install qiskit
 
+### Q# Code Sample
+
+#### .qsharp
+
+ProgramTask_2.qs:
+Tests.qs:
+
+#### Installation
+
 Install Microsoft's qdk product - Quantum Development Kit.
-## Command to run Q# sample
+
+#### Command to run Q# code
 dotnet run
 
