@@ -4,7 +4,6 @@
 3) Encode each of the two qubits with a sign-flip or a bit-flip code, in such a way that all the possible choices for the error gates described in 2), occurring on the logical        qubits, can be detected and fixed.
 4) Test your solution by making many measurements over the final state and testing that the results are in line with the expectations.
 
-   
 The Bell state (|00〉 + |11〉)/sqrt(2), which is a maximally entangled state, is created by initialising
 the two qubit input state |00〉 and applying a Hadamard gate to the first qubit and a CNOT gate with 
 first qubit as control input and second qubit as target input. In this task, an error gate is added to
@@ -18,3 +17,14 @@ is encoded using only bit-flip code because a sign-flip error would leave the st
 implementation of Shor Code to both of the input qubit states. Hence, the problem is simplified to encoding the 
 first qubit state |+> as |+++> and the second qubit state |0〉 as |000〉. Now since the encoded states are only |+++〉 
 and |000〉, this eliminates the application of CNOTs during encoding for the sign-flip and bit-flip code.
+
+## Task 2 Code Sample
+The code sample is illustrated in python as well as in Q#.
+
+Install Qiskit by a python package manager tool - pip: 
+pip install qiskit
+
+Install Microsoft's qdk product - Quantum Development Kit.
+## Command to run Q# sample
+dotnet run
+
