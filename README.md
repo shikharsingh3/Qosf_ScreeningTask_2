@@ -23,20 +23,22 @@ The code sample is illustrated in python as well as in Q#.
 ### Python Code Sample 
 #### .python
 
-Task_2.py: 
-UnitTests.py:
+Task_2.py: <br/>
+UnitTests.py: <br/>
 
 #### Installation 
 
-Install Qiskit by a python package manager tool - pip: 
+Install Qiskit by a python package manager tool - pip: <br/> 
+'''Python 
 pip install qiskit
+'''
 
 ### Q# Code Sample
 
 #### .qsharp
 
-ProgramTask_2.qs:
-Tests.qs:
+ProgramTask_2.qs: <br/>
+Tests.qs: <br/>
 
 #### Installation
 
