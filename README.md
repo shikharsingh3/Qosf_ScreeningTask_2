@@ -18,7 +18,8 @@ would flip |+〉 to |-〉 but a bit-flip error would leave the state |+〉 uncha
 is encoded using only bit-flip code because a sign-flip error would leave the state |0〉 unchanged. This eliminates the 
 implementation of Shor Code to both of the input qubit states. Hence, the problem is simplified to encoding the 
 first qubit state |+〉 as |+++〉 and the second qubit state |0〉 as |000〉. Now since the encoded states are only |+++〉
-and |000〉, this eliminates the application of CNOTs during encoding for the sign-flip and bit-flip code.
+and |000〉, this eliminates the application of CNOTs during encoding for the sign-flip and bit-flip code:<br/><br/>
+![BellStateCircuitWithError](images/img2.png)
 
 ## Task 2 Code Sample
 The code sample is illustrated in python as well as in Q#.
