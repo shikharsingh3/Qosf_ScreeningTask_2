@@ -23,8 +23,8 @@ The code sample is illustrated in python as well as in Q#.
 ### Python Code Sample 
 #### .python
 
-Task_2.py: <br/>
-UnitTests.py: <br/>
+[Task_2.py]():<br/>
+[UnitTests.py]():<br/>
 
 #### Installation 
 
@@ -37,8 +37,8 @@ pip install qiskit
 
 #### .qsharp
 
-ProgramTask_2.qs: <br/>
-Tests.qs: <br/>
+[ProgramTask_2.qs]():<br/>
+[Tests.qs]():<br/>
 
 #### Installation
 
