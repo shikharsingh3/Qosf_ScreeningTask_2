@@ -29,9 +29,9 @@ UnitTests.py: <br/>
 #### Installation 
 
 Install Qiskit by a python package manager tool - pip: <br/> 
-'''Python 
+```
 pip install qiskit
-'''
+```
 
 ### Q# Code Sample
 
@@ -45,5 +45,7 @@ Tests.qs: <br/>
 Install Microsoft's qdk product - Quantum Development Kit.
 
 #### Command to run Q# code
+```
 dotnet run
+```
 
