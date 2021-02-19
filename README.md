@@ -50,7 +50,7 @@ pip install qiskit
 
 #### Installation
 
-Install Microsoft's qdk product - [Quantum Development Kit](https://docs.microsoft.com/en-us/azure/quantum/install-overview-qdk).
+Install Microsoft's qdk product - [Quantum Development Kit](https://docs.microsoft.com/en-us/azure/quantum/install-overview-qdk). <br/>
 Install [.NET Core SDK 3.1](https://dotnet.microsoft.com/download)
 
 #### Command to run Q# code
