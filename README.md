@@ -26,8 +26,8 @@ The code sample is illustrated in python as well as in Q#.
 ### Python Code Sample 
 #### .python
 
-[Task_2.py]():<br/>
-[UnitTests.py]():<br/>
+[Task_2.py](): Python code implementing functions for error-correcting code of the sample.<br/>
+[UnitTests.py](): Python code (__main__) for unit tests of the sample. <br/>
 
 #### Installation 
 
@@ -40,12 +40,12 @@ pip install qiskit
 
 #### .qsharp
 
-[ProgramTask_2.qs]():<br/>
-[Tests.qs]():<br/>
+[ProgramTask_2.qs](): Q# code implementing quantum operations of the sample.<br/>
+[BellStateCode.qs](): Q# entry point to test whether results are in line with the expectations of the sample.<br/>
 
 #### Installation
 
-Install Microsoft's qdk product - Quantum Development Kit.
+Install Microsoft's qdk product - [Quantum Development Kit](https://docs.microsoft.com/en-us/azure/quantum/install-overview-qdk).
 
 #### Command to run Q# code
 ```
