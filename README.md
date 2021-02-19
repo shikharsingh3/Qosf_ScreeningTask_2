@@ -20,7 +20,7 @@ would flip |+〉 to |-〉 but a bit-flip error would leave the state |+〉 uncha
 is encoded using only bit-flip code because a sign-flip error would leave the state |0〉 unchanged. This eliminates the 
 implementation of Shor Code [[3]](https://cds.cern.ch/record/465953/files/0521635039_TOC.pdf) to both of the input qubit states. Hence, the problem is simplified to encoding the 
 first qubit state |+〉 as |+++〉 and the second qubit state |0〉 as |000〉. Now since the encoded states are only |+++〉
-and |000〉, application of CNOTs during encoding for the sign-flip and bit-flip code is not required. The quantum circuit for the error-correcting code is shown in ```Fig. 2```. The first input state qubit is encoded using sign-flip code whereas the second state qubit is encoded using bit-flip code. Error gates are applied to each of the registers and are recovered using Clifford + T gate set. <br/><br/>
+and |000〉, application of CNOTs during encoding for the sign-flip and bit-flip code is not required. The quantum circuit for the error-correcting code is shown in ```Fig. 2```. The first input state qubit is encoded using sign-flip code whereas the second state qubit is encoded using bit-flip code. Error gates are applied to each of the registers and are recovered using Clifford + T gate set [[4]](https://arxiv.org/pdf/1810.10259.pdf). <br/><br/>
 ![BellStateCircuitWithError](images/img2.png)
 &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; ```Fig. 2```
 
@@ -28,6 +28,7 @@ and |000〉, application of CNOTs during encoding for the sign-flip and bit-flip
 ```[2]```: [https://en.wikipedia.org/wiki/Bell_state](https://en.wikipedia.org/wiki/Bell_state) <br/>
 ```[3]```: [Nielsen, M. A., and I. L. Chuang, 2000, Quantum Computation and Quantum Information (Cambridge University
 Press,Cambridge)](https://cds.cern.ch/record/465953/files/0521635039_TOC.pdf) <br/>
+```[4]```: [Gottesman D 1998 Theory of fault-tolerant quantum computation Phys. Rev. A 57 127–137](https://arxiv.org/pdf/1810.10259.pdf)
 
 ## Task 2 Code Sample
 The code sample is illustrated in python as well as in Q#.
