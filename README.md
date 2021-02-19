@@ -9,7 +9,8 @@
 
 As shown in ```Fig.1```, the Bell state (|00〉 + |11〉)/sqrt(2), which is a maximally entangled state, is created by initialising
 a two qubit input state to |00〉 and applying a Hadamard gate to the first qubit and a CNOT gate with 
-first qubit as control input and second qubit as target input [[2]](https://en.wikipedia.org/wiki/Bell_state). 
+first qubit as control input and second qubit as target input. On measuring the first qubit for the state (|00〉 + |11〉)/sqrt(2), 
+the result of measuring the second qubit is guaranteed to yield the same value - '00' or '11' [[2]](https://en.wikipedia.org/wiki/Bell_state). 
 
 In this task, an error gate is added to each of the two qubits before the CNOT gate. The error can be a bit-flip error (X gate), sign-flip 
 error (Z gate) or an identity gate. Each of the two qubits are encoded using bit-flip or sign-flip code
